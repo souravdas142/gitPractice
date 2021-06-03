@@ -221,7 +221,7 @@ sudo systemctl enable --now blueman-mechanism.service
     - [Arch-wiki](https://wiki.archlinux.org/index.php/PipeWire)
     - [Arch-Bluetooth-Wiki](https://wiki.archlinux.org/title/Bluetooth)
     - [blueman](https://wiki.archlinux.org/title/Blueman)
-- [Debian-wiki](https://wiki.debian.org/PipeWire) &nbsp; &nbsp; &nbsp; effected? <b>[ <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/deprecated.svg" width=96 height=12.8>  for this PPA ]</b>
+- [Debian-wiki](https://wiki.debian.org/PipeWire) &nbsp; &nbsp; &nbsp; effected2? **[** <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/deprecated.svg" width=96 height=12.8>  **for this PPA ]**
 
 # <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/wrench_and_hammer.svg" width=48 height=48> Troubleshooting  
 
