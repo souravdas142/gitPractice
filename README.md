@@ -116,7 +116,7 @@ sudo apt update
 
 **After [PPA Configuration](#1-ppa-configuration), follow the installation instructions below. And Consult with the [Troubleshooting](https://github.com/pipewire-debian/pipewire-debian/wiki/Troubleshooting) page if there is any error occured.**
 
-**For MX Linux or Debian buster see [this](https://pastebin.com/S5duuECS) for which packages are to be insalled or upgraded before installing.**
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> **For MX Linux or Debian buster see [this](https://pastebin.com/S5duuECS) for which packages are to be insalled or upgraded before installing.**
 
 ```bash
 # Install dependencies
@@ -147,7 +147,7 @@ sudo apt-get install blueman-git
 
     
 ## 3. Post Installation Steps for PipeWire or blueman-git        
-You don't need to uninstall PulseAudio to enable PipeWire, disable and mask PulseAudio related services to stop them    
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> You don't need to uninstall PulseAudio to enable PipeWire, disable and mask PulseAudio related services to stop them    
 ```bash
 systemctl --user --now disable  pulseaudio.{socket,service}
 systemctl --user mask pulseaudio        
@@ -174,7 +174,7 @@ sudo sed -i 's/.*autospawn.*/autospawn = no/g' /etc/pulse/client.conf.d/00-enabl
 pulseaudio --kill        
 ```        
 
-**For Mx Linux Or `init` system (Anyone using `systemd` ignore this subsection).**
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> **For Mx Linux Or `init` system (Anyone using `systemd` ignore this subsection).**
 
 <pre>
 <code>
@@ -211,7 +211,7 @@ You can check which server is in use by running (as a regular user):
 ```bash
 pactl info | grep '^Server Name'
 ```
-Still doesn't your system have any sound ? , please reboot **( I highly discourage of any reboot,
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> Still doesn't your system have any sound ? , please reboot **( I highly discourage of any reboot,
 Go through all instructions again if needed).**    
 
 **\~\~\~\~\~\~\~\~\~\~\~\~\~\~\~ For blueman-git  \~\~\~\~\~\~\~\~\~\~\~\~\~\~\~**          
