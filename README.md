@@ -153,7 +153,7 @@ sudo apt-get update
 
 ```
 
-<details markdown="span"><summary markdown="span"><strong>Other Methods to add PPA where <code>add-apt-repository</code> is not available (Optional)</strong></summary>
+<details><summary><strong>Other Methods to add PPA where <code>add-apt-repository</code> is not available (Optional)</strong></summary>
                                                  
 <br>                                             
                                                  
@@ -439,4 +439,4 @@ Original blueman project maintainer:
 [Christopher Schramm](https://github.com/cschramm) - [Source](https://github.com/blueman-project/blueman)   
 
 
-test2
+test3
