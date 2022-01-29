@@ -338,21 +338,21 @@ substitue this `Exec=/usr/bin/pipewire-media-session` line with above `pipewire-
 </pre>
 </details>                                     
                                      
-For **WirePlumber**                                     
+For **WirePlumber (Recommended)**                                     
 
 ```bash
 systemctl --user --now enable wireplumber.service
 ```
-For **pipewire-media-session**
+For **pipewire-media-session (Optional)**
 
 ```bash
 systemctl --user enable --now pipewire-media-session.service
 ```
-You can check which server is in use by running (as a regular user):   
+Check which server is in use by running :     
 ```bash
 pactl info | grep '^Server Name'
 ```
-<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> Still doesn't your system have any sound ? , please reboot **( I highly discourage of any reboot,
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> Still doesn't have your system any sound ? , please reboot **( I highly discourage of any reboot,
 Go through all instructions again if needed).**  <br>  <br>           
                                       
                            
@@ -381,9 +381,9 @@ Section, you just need to reverse the whole thing in that section. For more sear
 
 
 
-# <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" width=48 height=48> Wiki & Articles</h1></summary>
+# <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=48 height=48> Wiki & Articles        
 
-<details open><summary><strong>Wiki & Articles</summary>
+<details><summary><img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=20 height=20><strong> Wiki & Articles</strong> (Click to open) </summary>
 
 <p>
 
@@ -420,8 +420,8 @@ Section, you just need to reverse the whole thing in that section. For more sear
 
 If you have any issue regarding this PPA package, create a issue here.
 
-**For features, requests or bugs, create an issue on [upstream](https://gitlab.freedesktop.org/pipewire/pipewire/-/issues) For PW**
-**And for blueman on [here](https://github.com/blueman-project/blueman/issues/new)**    
+**For features, requests or bugs, create an issue on upstream For [PipeWire](https://gitlab.freedesktop.org/pipewire/pipewire/-/issues),**
+**[blueman](https://github.com/blueman-project/blueman/issues/new), [WiePlumber](https://gitlab.freedesktop.org/pipewire/wireplumber/-/issues/new?issue)**    
 
 # <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/clap.svg" width=48 height=48> Credits
 
