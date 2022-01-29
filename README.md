@@ -16,10 +16,6 @@
     <!-- <img src="https://img.shields.io/github/last-commit/pipewire-debian/pipewire-debian/development?color=%23ffA000&label=Last%20commit%20on%20Development&logo=GITHUB&style=plastic"> -->
     <img src="https://img.shields.io/github/last-commit/pipewire-debian/pipewire-debian/development?label=Last%20Commit%20%3A%20&logo=github" alt="last commit">
   </a>
-  <!-- Last commit on master -->
-  <!--
-  <img src="https://img.shields.io/github/last-commit/pipewire-debian/pipewire-debian/master?color=%23ffA000&label=master&logo=GITHUB&style=plastic">
-  -->
   <!-- Packager -->
   <a href="https://github.com/souravdas142/">
     <img src="https://img.shields.io/website?down_message=Sourav%20Das&label=Packager&logo=GITHUB&up_message=Sourav%20Das&url=https%3A%2F%2Fgithub.com%2Fsouravdas142">
@@ -45,36 +41,6 @@
                           
 ## PipeWire PPA for Ubuntu (>= 18.04)
 #### _An upstream version of PipeWire for Ubuntu maintained with a 15 day release cycle_
-<!-- commented out
-|                                               Link                                               |          Description     |
-| :----------------------------------------------------------------------------------------------: | :----------------------: |
-|          [Original-PipeWire-Upstream](https://gitlab.freedesktop.org/pipewire/pipewire)          |        **Forked**        |
-| [PipeWire-debian-Upstream](https://salsa.debian.org/utopia-team/pipewire/-/tree/debian/0.3.25-1) |        **Forked**        |
-|            [Original-blueman-Upstream](https://github.com/blueman-project/blueman)               |        **Forked**        |
-|            [blueman-debian-Upstream](https://salsa.debian.org/cschramm/blueman)                  |        **Forked**        |
-|                  [libfdk-aac[12]](https://packages.ubuntu.com/hirsute/libfdk-aac2)               |     **Dependencies**     |
-|                 [libopenaptx0](https://packages.ubuntu.com/hirsute/libopenaptx0)                 |     **Dependencies**     |
-|               [libldacbt-abr2](https://packages.ubuntu.com/hirsute/libldacbt-abr2)               |     **Dependencies**     |
-|               [libldacbt-enc2](https://packages.ubuntu.com/hirsute/libldacbt-enc2)               |     **Dependencies**     |
-
-
-
-## What We Have
-
-|                                               Package                                            |          Status          |
-| :----------------------------------------------------------------------------------------------: | :----------------------: |
-|      [PipeWire](https://gitlab.freedesktop.org/pipewire/pipewire)								   |    **Maintained**        |
-|      [WirePlumber](https://gitlab.freedesktop.org/pipewire/WirePlumber)     |         **Maintained**          |
-|      [blueman](https://github.com/blueman-project/blueman)           |         **Maintained**          |
-|      [libcamera](https://git.linuxtv.org/libcamera.git/)        |         **Maintained**          |
-|      [libfreeaptx](https://github.com/iamthehorker/libfreeaptx)      |         **Maintained**          |
-|      [openfec](https://github.com/roc-streaming/openfec)          |         **Maintained**          |
-|      [roc-toolkit](https://github.com/roc-streaming/roc-toolkit)      |         **Maintained**          |
-|                  [libfdk-aac[12]](https://packages.ubuntu.com/hirsute/libfdk-aac2)               |     **Dependencies**     |
-|               [libldacbt-abr2](https://packages.ubuntu.com/hirsute/libldacbt-abr2)               |     **Dependencies**     |
-|               [libldacbt-enc2](https://packages.ubuntu.com/hirsute/libldacbt-enc2)               |     **Dependencies**     |
-
--->
 
 
 <table>
@@ -438,5 +404,4 @@ Utopia Maintenance Team - Jeremy Bicha - [Source](https://salsa.debian.org/utopi
 Original blueman project maintainer:
 [Christopher Schramm](https://github.com/cschramm) - [Source](https://github.com/blueman-project/blueman)   
 
-
-test7
+test8
