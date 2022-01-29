@@ -230,7 +230,7 @@ sudo apt-get install wireplumber{,-doc} gir1.2-wp-0.4 libwireplumber-0.4-{0,dev}
 sudo apt-get install pipewire-media-session
 
 ```
-<details><summary><strong>Install blueman-git (Optional)</strong></summary>
+<details markdown=1><summary markdown="span"><strong>Install blueman-git (Optional)</strong></summary>
 <br>
 <strong>~~~~~~~~~~~ For blueman-git  ~~~~~~~~~~~</strong>
 
@@ -254,7 +254,7 @@ sudo apt-get install blueman-git
 systemctl --user --now disable  pulseaudio.{socket,service}
 systemctl --user mask pulseaudio        
 ```
-<details><summary><strong>Additional steps (If prev. subsection failed to stop PA)  (Optional)</strong></summary>
+<details markdown=1><summary markdown="span"><strong>Additional steps (If prev. subsection failed to stop PA)  (Optional)</strong></summary>
 <br>         
 
 ```bash        
@@ -284,7 +284,7 @@ pulseaudio --kill
 ```        
 </details>
 
-<details><summary><strong>Additional steps for <code>init</code> systems (Optional)</strong></summary>
+<details markdown=1><summary markdown="span"><strong>Additional steps for <code>init</code> systems (Optional)</strong></summary>
 <br>
 
 ```bash
@@ -318,7 +318,7 @@ pulseaudio --kill
 ```bash
 systemctl --user --now enable pipewire{,-pulse}.{socket,service}                 
 ```
-<details><summary>
+<details markdown=1><summary markdown="span">
 <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> <strong>For Mx Linux Or <code>init</code> system (Anyone using <code>systemd</code> ignore this subsection). (Optional)</strong>
 </summary>
 
@@ -363,7 +363,7 @@ Go through all instructions again if needed).**  <br>  <br>
 ### C) **\~\~\~\~\~\~\~\~\~\~\~ For blueman-git  \~\~\~\~\~\~\~\~\~\~\~**          
                            
                                        
-<details><summary><strong>Enable blueman-git related Stuff (<code>init</code> system users, Ignore this) (Optional) </strong></summary>
+<details markdown=1><summary markdown="span"><strong>Enable blueman-git related Stuff (<code>init</code> system users, Ignore this) (Optional) </strong></summary>
 
 **Incase of blueman, just enable below service.**          
 
@@ -387,7 +387,7 @@ Section, you just need to reverse the whole thing in that section. For more sear
 
 # <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=48 height=48> Wiki & Articles        
 
-<details><summary><img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=20 height=20><strong> Wiki & Articles</strong> (Click to open) </summary>
+<details markdown=1><summary markdown="span"><img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=20 height=20><strong> Wiki & Articles</strong> (Click to open) </summary>
 
 <p>
 
@@ -439,4 +439,4 @@ Original blueman project maintainer:
 [Christopher Schramm](https://github.com/cschramm) - [Source](https://github.com/blueman-project/blueman)   
 
 
-test4
+test5
