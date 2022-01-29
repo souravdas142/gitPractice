@@ -153,11 +153,15 @@ sudo apt-get update
 
 ```
 
-<details><summary><strong>Other Methods to add PPA where <code>add-apt-repository</code> is not available (Optional)</strong></summary>
-<br>
+<details><summary markdown="span"><strong>Other Methods to add PPA where <code>add-apt-repository</code> is not available (Optional)</strong></summary>
+                                                 
+<br>                                             
+                                                 
 <strong>To Manually add The Launchpad PPA, Where <code>add-apt-repository</code> is not available, Or, In case of any special case <br>
-Consider this is an example, Do the same for <code>WirePlumber</code> key may or may not be changed here</strong>
+Consider this is an example, Do the same for <code>WirePlumber</code> key may or may not be changed here</strong>                              
+                                                  
 
+                                                  
 ```bash
 # This PPA can be added to your system manually by running below commands, It creates
 # a file under /etc/apt/sources.list.d/ containing  list of mirrors
