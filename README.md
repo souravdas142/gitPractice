@@ -13,10 +13,13 @@
   </a>
   <!-- Last commit on dev -->
   <a href="https://github.com/pipewire-debian/pipewire-debian/tree/development">
-    <img src="https://img.shields.io/github/last-commit/pipewire-debian/pipewire-debian/development?color=%23ffA000&label=Last%20commit%20on%20Development&logo=GITHUB&style=plastic">
+    <!-- <img src="https://img.shields.io/github/last-commit/pipewire-debian/pipewire-debian/development?color=%23ffA000&label=Last%20commit%20on%20Development&logo=GITHUB&style=plastic"> -->
+    <img src="https://img.shields.io/github/last-commit/pipewire-debian/pipewire-debian/development?label=Last%20Commit%20%3A%20&logo=github" alt="last commit">
   </a>
   <!-- Last commit on master -->
+  <!--
   <img src="https://img.shields.io/github/last-commit/pipewire-debian/pipewire-debian/master?color=%23ffA000&label=master&logo=GITHUB&style=plastic">
+  -->
   <!-- Packager -->
   <a href="https://github.com/souravdas142/">
     <img src="https://img.shields.io/website?down_message=Sourav%20Das&label=Packager&logo=GITHUB&up_message=Sourav%20Das&url=https%3A%2F%2Fgithub.com%2Fsouravdas142">
@@ -38,9 +41,11 @@
   </a>
 </p>
 
-# PipeWire & blueman-git PPA for Ubuntu (>= 18.04)
-#### _An upstream version of blueman-git & PipeWire for Ubuntu maintained with a 15 day release cycle_
-
+<br>                          
+                          
+## PipeWire PPA for Ubuntu (>= 18.04)
+#### _An upstream version of PipeWire for Ubuntu maintained with a 15 day release cycle_
+<!-- commented out
 |                                               Link                                               |          Description     |
 | :----------------------------------------------------------------------------------------------: | :----------------------: |
 |          [Original-PipeWire-Upstream](https://gitlab.freedesktop.org/pipewire/pipewire)          |        **Forked**        |
@@ -52,11 +57,81 @@
 |               [libldacbt-abr2](https://packages.ubuntu.com/hirsute/libldacbt-abr2)               |     **Dependencies**     |
 |               [libldacbt-enc2](https://packages.ubuntu.com/hirsute/libldacbt-enc2)               |     **Dependencies**     |
 
-## [Launchpad PPA](https://launchpad.net/~pipewire-debian/+archive/ubuntu/pipewire-upstream)
+
+
+## What We Have
+
+|                                               Package                                            |          Status          |
+| :----------------------------------------------------------------------------------------------: | :----------------------: |
+|      [PipeWire](https://gitlab.freedesktop.org/pipewire/pipewire)								   |    **Maintained**        |
+|      [WirePlumber](https://gitlab.freedesktop.org/pipewire/WirePlumber)     |         **Maintained**          |
+|      [blueman](https://github.com/blueman-project/blueman)           |         **Maintained**          |
+|      [libcamera](https://git.linuxtv.org/libcamera.git/)        |         **Maintained**          |
+|      [libfreeaptx](https://github.com/iamthehorker/libfreeaptx)      |         **Maintained**          |
+|      [openfec](https://github.com/roc-streaming/openfec)          |         **Maintained**          |
+|      [roc-toolkit](https://github.com/roc-streaming/roc-toolkit)      |         **Maintained**          |
+|                  [libfdk-aac[12]](https://packages.ubuntu.com/hirsute/libfdk-aac2)               |     **Dependencies**     |
+|               [libldacbt-abr2](https://packages.ubuntu.com/hirsute/libldacbt-abr2)               |     **Dependencies**     |
+|               [libldacbt-enc2](https://packages.ubuntu.com/hirsute/libldacbt-enc2)               |     **Dependencies**     |
+
+-->
+
+
+<table>
+  <caption><b>What We Have in Launchpad <a href="https://launchpad.net/~pipewire-debian">PPA</a></b></caption>
+  <thead>
+    <tr>
+      <th align="center"><b>Package</b></th>
+      <th align="center"><b>Status</b></th>
+      <th align="center"><b>Package</b></th>
+      <th align="center"><b>Status</b></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+       <td><a href="https://gitlab.freedesktop.org/pipewire/pipewire">PipeWire</a></td>
+       <td>							 <b>Maintained</b></td>
+       <td><a href="https://gitlab.freedesktop.org/pipewire/wireplumber">WirePlumber</a></td>
+       <td>							 <b>Maintained</b></td>
+    </tr>
+    <tr>
+       <td><a href="https://github.com/blueman-project/blueman">blueman</a></td>
+       <td>							 <b>Maintained</b></td>
+       <td><a href="https://git.linuxtv.org/libcamera.git/">libcamera</a></td>
+       <td>							 <b>Maintained</b></td>
+    </tr>
+    <tr>
+       <td><a href="https://github.com/iamthehorker/libfreeaptx">libfreeaptx</a></td>
+       <td>							 <b>Maintained</b></td>
+       <td><a href="https://github.com/roc-streaming/openfec">openfec</a></td>
+       <td>							 <b>Maintained</b></td>
+    </tr>
+    <tr>
+       <td><a href="https://github.com/roc-streaming/roc-toolkit">roc-toolkit</a></td>
+       <td>							 <b>Maintained</b></td>
+       <td><a href="https://packages.ubuntu.com/hirsute/libfdk-aac2">libfdk-aac2</a></td>
+       <td>							 <b>Maintained</b></td>
+    </tr>
+    <tr>
+       <td><a href="https://packages.ubuntu.com/hirsute/libldacbt-abr2">libldacbt-abr2</a></td>
+       <td>							 <b>Maintained</b></td>
+       <td><a href="https://packages.ubuntu.com/hirsute/libldacbt-enc2">libldacbt-enc2</a></td>
+       <td>							 <b>Maintained</b></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+## [Launchpad PPA](https://launchpad.net/~pipewire-debian) [AMD64]
 
 <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/warning.svg" width=22 height=22>&nbsp; **The `master` branch ( DEPRECATED ) Can be viewed as a mirror of Launchpad PPA. ~~I will keep sync this with the LP PPA~~. As this is `deprecated` use [Launchpad PPA section](#add-the-launchpad-ppa) in case of adding PPA alternatively.** 
 
-<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/information.svg" width=28 height=28>&nbsp; **The [development](https://github.com/pipewire-debian/pipewire-debian/tree/development) branch is important as I will be using that branch to push new patches related to building PipeWire, blueman-git and their dependencies.**
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/information.svg" width=28 height=28>&nbsp; **The [development](https://github.com/pipewire-debian/pipewire-debian/tree/development) branch is for development purpose.**
+
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/information.svg" width=28 height=28>&nbsp; **Find All(with old) Releases [PipeWire](https://launchpad.net/~pipewire-debian/+archive/ubuntu/pipewire-upstream/+packages?field.name_filter=&field.status_filter=&field.series_filter=), [WirePlumber](https://launchpad.net/~pipewire-debian/+archive/ubuntu/wireplumber-upstream/+packages?field.name_filter=&field.status_filter=&field.series_filter=), [Meson-Ninja](https://launchpad.net/~pipewire-debian/+archive/ubuntu/meson-ninja/+packages?field.name_filter=&field.status_filter=&field.series_filter=), [Testing](https://launchpad.net/~pipewire-debian/+archive/ubuntu/testing/+packages?field.name_filter=&field.status_filter=&field.series_filter=)**                                                     
 
 ## 1. PPA Configuration
 
@@ -65,13 +140,23 @@
 <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> **The recommended & convenient way**
 --->
 
-**Where `add-apt-repository` is available, Run only 2 commands below. (Skip the below subsection)**
+**Where `add-apt-repository` is available, Run below commands.**
 
 ```bash
 sudo add-apt-repository ppa:pipewire-debian/pipewire-upstream
+
+# For WirePlumber 
+
+sudo add-apt-repository ppa:pipewire-debian/wireplumber-upstream
+
 sudo apt-get update
+
 ```
-**To Manually add The Launchpad PPA, Where `add-apt-repository` is not available, Or, In case of any special case**
+
+<details><summary><strong>Other Methods to add PPA where <code>add-apt-repository</code> is not available (Optional)</strong></summary>
+<br>
+<strong>To Manually add The Launchpad PPA, Where <code>add-apt-repository</code> is not available, Or, In case of any special case <br>
+Consider this is an example, Do the same for <code>WirePlumber</code> key may or may not be changed here</strong>
 
 ```bash
 # This PPA can be added to your system manually by running below commands, It creates
@@ -110,9 +195,9 @@ sudo apt update
 ```
 -->
 
+</details>
 
-
-## 2. Install PipeWire Or blueman-git
+## 2. Install PipeWire, WirePlumber Or blueman-git
 
 **After [PPA Configuration](#1-ppa-configuration), follow the installation instructions below. And Consult with the [Troubleshooting](https://github.com/pipewire-debian/pipewire-debian/wiki/Troubleshooting) page if there is any error occured.**
 
@@ -126,14 +211,24 @@ sudo apt install libfdk-aac2 libldacbt-{abr,enc}2 libopenaptx0
 # If `libfdk-aac2` not found install `libfdk-aac1`
 # Install pipewire and additional packages
 
-sudo apt install gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,media-session,bin,locales,tests}}
+sudo apt install gstreamer1.0-pipewire libpipewire-0.3-{0,dev,modules} libspa-0.2-{bluetooth,dev,jack,modules} pipewire{,-{audio-client-libraries,pulse,bin,locales,tests}}
 
 # Additionally, if you want to install `pipewire-doc`
 
 sudo apt install pipewire-doc     
-```
 
-**\~\~\~\~\~\~\~\~\~\~\~ For blueman-git  \~\~\~\~\~\~\~\~\~\~\~**          
+# For WirePlumber (Recommended)
+
+sudo apt-get install wireplumber{,-doc} gir1.2-wp-0.4 libwireplumber-0.4-{0,dev}
+
+# For pipewire-media-session (install Wireplumber is recommended)
+
+sudo apt-get install pipewire-media-session
+
+```
+<details><summary><strong>Install blueman-git (Optional)</strong></summary>
+<br>
+<strong>~~~~~~~~~~~ For blueman-git  ~~~~~~~~~~~</strong>
 
 ```bash
 # Before installing blueman-git, remove and purge any official version of blueman.        
@@ -144,18 +239,19 @@ sudo apt-get remove --purge blueman && sudo rm -f /var/lib/blueman/network.state
 
 sudo apt-get install blueman-git         
 ```   
-
+</details>
     
-## 3. Post Installation Steps for PipeWire or blueman-git        
+## 3. Post Installation Steps for PipeWire, WirePlumber or blueman-git        
 
 ### A) Disabling PulseAudio
 
-<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> You don't need to uninstall PulseAudio to enable PipeWire, disable and mask PulseAudio related services to stop them                    
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> You don't need to uninstall PulseAudio to enable PipeWire, <a href="https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/2058#note_1228129">Both can be installed side-by-side (there are no file collisions)</a>. <br> <br> Just disable and mask PulseAudio related services to stop them                            
 ```bash
 systemctl --user --now disable  pulseaudio.{socket,service}
 systemctl --user mask pulseaudio        
 ```
-**Additional steps (If prev. subsection failed to stop PA)**
+<details><summary><strong>Additional steps (If prev. subsection failed to stop PA)  (Optional)</strong></summary>
+<br>         
 
 ```bash        
 # You need to tell Pulseaudio not to respawn itself by issuing command:     
@@ -182,8 +278,10 @@ sudo mv -v /etc/xdg/autostart/pulseaudio.desktop{,.bak}
 
 pulseaudio --kill        
 ```        
+</details>
 
-**Additional steps for `init` systems**     
+<details><summary><strong>Additional steps for <code>init</code> systems (Optional)</strong></summary>
+<br>
 
 ```bash
 # PulseAudio (>= 13.04-4) also have autospawn defined at /etc/init.d/pulseaudio-enable-autospawn
@@ -194,11 +292,31 @@ sudo update-rc.d pulseaudio-enable-autospawn disable
 # If PA still running, Once again kill PA
 
 pulseaudio --kill
+
 ```
+</details>
 
-### B) Enabling `PipeWire` Related stuffs     
-
-<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> **For Mx Linux Or `init` system (Anyone using `systemd` ignore this subsection).**
+### B) Enabling `PipeWire` Related stuffs                                        
+                                   
+<br>                                   
+                                   
+> <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/warning.svg" width=22 height=22>&nbsp; **Since version `0.3.28` conf files are moved to `/usr/share/` directory from `/etc/`.  You have to copy them to `/etc/` directory manually. From Now `/etc/pipewire/` can be used as system wide drop in for User edited conf files. `conffile` overridden behaviour is `$HOME/.config/pipewire > /etc/pipewire > /usr/share/pipewire`**              
+>
+> To copy conffiles from `/usr/share/` to `/etc/`, issue below command. **(Optional)**     
+>
+> ```bash
+> sudo cp -vRa /usr/share/pipewire /etc/
+> ```                             
+                                   
+                                     
+                                     
+**Finally,** Enable and start PipeWire related services **(`init` system users, Ignore this)**                                            
+```bash
+systemctl --user --now enable pipewire{,-pulse}.{socket,service}                 
+```
+<details><summary>
+<img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> <strong>For Mx Linux Or <code>init</code> system (Anyone using <code>systemd</code> ignore this subsection). (Optional)</strong>
+</summary>
 
 <pre>
 <code>
@@ -218,32 +336,39 @@ substitue this `Exec=/usr/bin/pipewire-media-session` line with above `pipewire-
 
 </code>
 </pre>
+</details>                                     
+                                     
+For **WirePlumber**                                     
 
-> <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/warning.svg" width=22 height=22>&nbsp; **Since version `0.3.28` conf files are moved to `/usr/share/` directory from `/etc/`.  You have to copy them to `/etc/` directory manually. From Now `/etc/pipewire/` can be used as system wide drop in for User edited conf files. `conffile` overridden behaviour is `$HOME/.config/pipewire > /etc/pipewire > /usr/share/pipewire`**              
->
-> To copy conffiles from `/usr/share/` to `/etc/`, issue below command. **(Optional)**     
->
-> ```bash
-> sudo cp -vRa /usr/share/pipewire /etc/
-> ```
-
-**Finally,** Enable and start PipeWire related services **(`init` system users, Ignore this)**       
 ```bash
-systemctl --user --now enable pipewire{,-pulse}.{socket,service} pipewire-media-session.service
+systemctl --user --now enable wireplumber.service
+```
+For **pipewire-media-session**
+
+```bash
+systemctl --user enable --now pipewire-media-session.service
 ```
 You can check which server is in use by running (as a regular user):   
 ```bash
 pactl info | grep '^Server Name'
 ```
 <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/idea_bulb.svg" width=22 height=22> Still doesn't your system have any sound ? , please reboot **( I highly discourage of any reboot,
-Go through all instructions again if needed).**  <br />  <br />           
-
+Go through all instructions again if needed).**  <br>  <br>           
+                                      
+                           
 ### C) **\~\~\~\~\~\~\~\~\~\~\~ For blueman-git  \~\~\~\~\~\~\~\~\~\~\~**          
+                           
+                                       
+<details><summary><strong>Enable blueman-git related Stuff (<code>init</code> system users, Ignore this) (Optional) </strong></summary>
 
-**Incase of blueman, just enable below service. (`init` system users, Ignore this)**
+**Incase of blueman, just enable below service.**          
+
 ```bash
+
 sudo systemctl enable --now blueman-mechanism.service
+
 ```
+</details>
 
 
 # Uninstalling
@@ -256,8 +381,11 @@ Section, you just need to reverse the whole thing in that section. For more sear
 
 
 
+# <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" width=48 height=48> Wiki & Articles</h1></summary>
 
-# <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" width=48 height=48> Wiki & Articles
+<details open><summary><strong>Wiki & Articles</summary>
+
+<p>
 
 **Wiki -**
   - [This Repo Wiki](https://github.com/pipewire-debian/pipewire-debian/wiki)
@@ -279,6 +407,10 @@ Section, you just need to reverse the whole thing in that section. For more sear
  - [PIPEWIRE, THE NEWEST AUDIO KID ON THE LINUX BLOCK](https://hackaday.com/2021/06/23/pipewire-the-newest-audio-kid-on-the-linux-block)                     
  - [WirePlumber, the PipeWire session manager](https://www.collabora.com/news-and-blog/blog/2020/05/07/wireplumber-the-pipewire-session-manager)
  - [A step-by-step tutorial for live audio streaming with Roc](https://gavv.github.io/articles/roc-tutorial)
+
+</p>
+
+</details>
 
 # <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/wrench_and_hammer.svg" width=48 height=48> Troubleshooting  
 
