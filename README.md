@@ -389,7 +389,7 @@ Section, you just need to reverse the whole thing in that section. For more sear
 
 <details markdown=1><summary markdown="span"><img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=20 height=20><strong> Wiki & Articles</strong> (Click to open)</summary>
 
-
+<br>                                   
 
 **Wiki -**
   - [This Repo Wiki](https://github.com/pipewire-debian/pipewire-debian/wiki)
@@ -439,4 +439,4 @@ Original blueman project maintainer:
 [Christopher Schramm](https://github.com/cschramm) - [Source](https://github.com/blueman-project/blueman)   
 
 
-test6
+test7
