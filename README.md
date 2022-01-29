@@ -387,9 +387,9 @@ Section, you just need to reverse the whole thing in that section. For more sear
 
 # <img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=48 height=48> Wiki & Articles        
 
-<details markdown=1><summary markdown="span"><img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=20 height=20><strong> Wiki & Articles</strong> (Click to open) </summary>
+<details markdown=1><summary markdown="span"><img src="https://raw.githubusercontent.com/wiki/pipewire-debian/pipewire-debian/images/icons/open_book.svg" alt="Wiki & Articles" width=20 height=20><strong> Wiki & Articles</strong> (Click to open)</summary>
 
-<p>
+
 
 **Wiki -**
   - [This Repo Wiki](https://github.com/pipewire-debian/pipewire-debian/wiki)
@@ -412,7 +412,7 @@ Section, you just need to reverse the whole thing in that section. For more sear
  - [WirePlumber, the PipeWire session manager](https://www.collabora.com/news-and-blog/blog/2020/05/07/wireplumber-the-pipewire-session-manager)
  - [A step-by-step tutorial for live audio streaming with Roc](https://gavv.github.io/articles/roc-tutorial)
 
-</p>
+
 
 </details>
 
@@ -439,4 +439,4 @@ Original blueman project maintainer:
 [Christopher Schramm](https://github.com/cschramm) - [Source](https://github.com/blueman-project/blueman)   
 
 
-test5
+test6
